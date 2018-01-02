@@ -155,7 +155,7 @@
             bookmark.className = 'bookmark';
             bookmark.innerText = title;
             var randomCode =  Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0,5);
-            bookmark.href = '../Testes/index.html?deck=' +randomCode;
+            bookmark.href = '../deck.html?deck=' +randomCode;
             bookmark.target = '_blank';
             bookmarksList.appendChild(bookmark);
             bookmarkForm.reset();
